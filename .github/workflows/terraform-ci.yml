@@ -1,0 +1,13 @@
+name: Terraform-CI
+
+on:
+  push:
+    branches:
+      - release/1.0.0.0
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print message
+        run: echo "Welcome to github actions - Rohan"

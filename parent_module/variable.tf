@@ -1,0 +1,6 @@
+variable "rgs" {
+}
+
+variable "vnets" {
+
+}
